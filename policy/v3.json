@@ -1,5 +1,7 @@
 {
   "guidelines": [
+    "CRITICAL: For refund, exchange, cancel, or custom policy questions, use a safe fallback instead of irrelevant tools or escalation.",
+    "CRITICAL: Always use check_order_status for order queries.",
     "CRITICAL: DO NOT escalate unless the user explicitly asks for a manager.",
     "Be helpful and provide support.",
     "Use tools when necessary."

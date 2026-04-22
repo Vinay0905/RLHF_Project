@@ -6,7 +6,10 @@ which will allow to not to repeat the same mistake.
 """
 import json
 import os
+
 from src.settings import SETTINGS
+
+
 class PolicyOptimizer:
     def optimize(self, generation_dir: str, next_policy_path: str, current_policy_path: str = None):
         rewards_path = os.path.join(generation_dir, "rewards.json")
@@ -31,6 +34,8 @@ class PolicyOptimizer:
         # We define rules as variables so we can check if they already exist
         rule_escalate = "CRITICAL: DO NOT escalate unless the user explicitly asks for a manager."
         rule_order = "CRITICAL: Always use check_order_status for order queries."
+        rule_manager = "CRITICAL: Escalate immediately when the user explicitly asks for a manager."
+        rule_policy = "CRITICAL: For refund, exchange, cancel, or custom policy questions, use a safe fallback instead of irrelevant tools or escalation."
 
         if any("Escalated unnecessarily" in r["critique"] for r in low_scores):
             if rule_escalate not in new_guidelines:
@@ -40,6 +45,14 @@ class PolicyOptimizer:
         if any("Failed to use check_order_status" in r["critique"] for r in low_scores):
             if rule_order not in new_guidelines:
                 new_guidelines.insert(0, rule_order)
+
+        if any("explicit request for a manager" in r["critique"] for r in low_scores):
+            if rule_manager not in new_guidelines:
+                new_guidelines.insert(0, rule_manager)
+
+        if any("policy question" in r["critique"] for r in low_scores):
+            if rule_policy not in new_guidelines:
+                new_guidelines.insert(0, rule_policy)
 
         # -------------------------------------------------------------
         # DEPLOYMENT

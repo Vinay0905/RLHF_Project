@@ -2,16 +2,51 @@
   {
     "run_id": "run_1_q1",
     "score": 5,
-    "critique": "Successfully used the correct tool for order status."
+    "critique": "Successfully used the correct tool for order tracking."
   },
   {
     "run_id": "run_1_q2",
     "score": 5,
-    "critique": "Correctly searched KB for standard query."
+    "critique": "Correctly searched the knowledge base for an account access question."
   },
   {
     "run_id": "run_1_q3",
     "score": 2,
-    "critique": "Escalated unnecessarily. Could have resolved via tools."
+    "critique": "Escalated unnecessarily for a policy question that should be handled safely."
+  },
+  {
+    "run_id": "run_1_q4",
+    "score": 5,
+    "critique": "Successfully used the correct tool for order tracking."
+  },
+  {
+    "run_id": "run_1_q5",
+    "score": 5,
+    "critique": "Correctly searched the knowledge base for an account access question."
+  },
+  {
+    "run_id": "run_1_q6",
+    "score": 1,
+    "critique": "Failed to use check_order_status tool for order tracking query."
+  },
+  {
+    "run_id": "run_1_q7",
+    "score": 2,
+    "critique": "Escalated unnecessarily for a policy question that should be handled safely."
+  },
+  {
+    "run_id": "run_1_q8",
+    "score": 5,
+    "critique": "Correctly searched the knowledge base for an account access question."
+  },
+  {
+    "run_id": "run_1_q9",
+    "score": 5,
+    "critique": "Correctly escalated when the user explicitly asked for a manager."
+  },
+  {
+    "run_id": "run_1_q10",
+    "score": 2,
+    "critique": "Escalated unnecessarily for a policy question that should be handled safely."
   }
 ]

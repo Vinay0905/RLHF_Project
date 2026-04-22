@@ -10,5 +10,33 @@
     {
         "id": "q3",
         "text": "Can I get a refund on a custom dress?"
+    },
+    {
+        "id": "q4",
+        "text": "Please check the order status for order #12345."
+    },
+    {
+        "id": "q5",
+        "text": "My password is not working. How can I reset it?"
+    },
+    {
+        "id": "q6",
+        "text": "Where is my package for #12345 right now?"
+    },
+    {
+        "id": "q7",
+        "text": "Can I cancel my personalized order after placing it?"
+    },
+    {
+        "id": "q8",
+        "text": "I forgot my password and cannot sign in."
+    },
+    {
+        "id": "q9",
+        "text": "I want to speak to a manager about my delayed order."
+    },
+    {
+        "id": "q10",
+        "text": "Do you offer exchanges for custom stitched dresses?"
     }
 ]

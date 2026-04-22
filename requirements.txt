@@ -1,2 +1,5 @@
 langgraph
 langchain-core
+PyYAML
+langchain_groq
+langchain_community
