@@ -5,8 +5,8 @@
 !README.md
 
 # Ignore application data
-data/
-policy/
+# data/
+# policy/
 .env
 
 # Ignore python caches

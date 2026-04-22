@@ -1,0 +1,17 @@
+[
+  {
+    "run_id": "run_3_q1",
+    "score": 5,
+    "critique": "Successfully used the correct tool for order status."
+  },
+  {
+    "run_id": "run_3_q2",
+    "score": 5,
+    "critique": "Correctly searched KB for standard query."
+  },
+  {
+    "run_id": "run_3_q3",
+    "score": 3,
+    "critique": "Neutral behavior."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "guidelines": [
+    "CRITICAL: DO NOT escalate unless the user explicitly asks for a manager.",
+    "Be helpful and provide support.",
+    "Use tools when necessary."
+  ],
+  "escalation_threshold": 0.05
+}

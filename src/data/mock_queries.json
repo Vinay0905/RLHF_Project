@@ -1,0 +1,14 @@
+[
+    {
+        "id": "q1",
+        "text": "What is my order status for #12345?"
+    },
+    {
+        "id": "q2",
+        "text": "How do I reset my password?"
+    },
+    {
+        "id": "q3",
+        "text": "Can I get a refund on a custom dress?"
+    }
+]
