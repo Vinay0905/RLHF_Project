@@ -1,0 +1,17 @@
+project:
+  name: "RLHF Continuous Improvement Pipeline"
+  paths:
+    data_dir: "data/runs"
+    policy_dir: "policy"
+    mock_queries: "src/data/mock_queries.json"
+
+agent:
+  max_iterations: 5
+  base_escalation_threshold: 0.5
+  initial_guidelines:
+    - "Be helpful and provide support."
+    - "Use tools when necessary."
+
+evaluation:
+  metric: "average_reward_score"
+  min_score_for_success: 4.0

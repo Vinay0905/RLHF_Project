@@ -1,0 +1,14 @@
+# Ignore all markdown files
+*.md
+
+# Exclude README from being ignored
+!README.md
+
+# Ignore application data
+data/
+policy/
+.env
+
+# Ignore python caches
+__pycache__/
+*.pyc
