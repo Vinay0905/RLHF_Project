@@ -227,13 +227,13 @@ I consider those acceptable trade-offs for this assignment because the main obje
 
 ## Final Note
 
-If I were extending this beyond the assignment, my next steps would be:
+<!-- If I were extending this beyond the assignment, my next steps would be:
 
 - add broader query diversity and harder edge cases,
 - introduce confidence-aware routing,
 - separate evaluator features from decision rules more cleanly,
 - add automated tests for evaluator and optimizer behavior,
-- and replace the deterministic mock policy with a more realistic model adapter while preserving the same explicit control loop.
+- and replace the deterministic mock policy with a more realistic model adapter while preserving the same explicit control loop. -->
 
 This repository is therefore both:
 
