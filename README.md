@@ -169,20 +169,27 @@ I wanted the project to feel like a small but understandable production system, 
 ```
 
 ## How To Run
-
-### 1. Install dependencies
+### 0. Remove the data/run and the policy files for clearing the agent memory :
+```bash
+rm -rf data policy             
+```
+### 1. Install libraries :
 
 ```bash
+
 pip install -r requirements.txt
+
 ```
 
-### 2. Run the pipeline
+### 2. Run the pipeline :
 
 ```bash
+
 PYTHONPATH=. python3 src/demo.py
+
 ```
 
-### 3. Inspect outputs
+### 3. Inspect outputs :
 
 After execution, inspect:
 
