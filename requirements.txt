@@ -1,5 +1,7 @@
-langgraph
-langchain-core
 PyYAML
-langchain_groq
-langchain_community
+langgraph
+
+# Optional integrations mentioned in the project docs.
+langchain-core
+langchain-community
+langchain-groq
